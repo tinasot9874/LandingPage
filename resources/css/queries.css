@@ -1,0 +1,39 @@
+/*  Big tablet to 1200px */
+
+@media only screen and (max-width:1200px) {
+    .heading-main-box {}
+}
+
+
+/*  Small tablet to big tablet from 768px to 1023px */
+
+@media only screen and (max-width:1023px) {
+    .product-box .btn {
+        margin-left: 14%;
+    }
+    .logo {
+        width: 252px;
+        float: left;
+        margin-left: 39px;
+        margin-top: -17px;
+    }
+    .main-nav {
+        margin-right: 0px;
+        margin-top: 58px;
+        float: right;
+    }
+}
+
+
+/* Small phones to small tablets */
+
+@media only screen and (max-width:767px) {
+    .product-box .btn {
+        margin-left: 14%;
+    }
+}
+
+
+/* Small phones from 0 to 480px */
+
+@media only screen and (max-width:480px) {}
